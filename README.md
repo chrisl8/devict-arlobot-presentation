@@ -1,17 +1,14 @@
-# DevICT Presentation Template
+# ArloBot Presentation for DevICT
 
-This repo is intended to serve as a quick starting point for putting together a
-presentation. Presenters are welcome to use this template or roll their own
-presentation.
+This is a brief presentation that I am doing for [DevICT][dev-ict]
+about my [Arlobot Robot][arlobot-repo].
 
-This starter kit uses the [reveal.js presentation framework][reveal-repo].
+The presentation framework itself is a clone and republish of the
+[DevICT Presentation Template][devict-template]
 
 ## Setup
 * Download this package. Either clone the repo or download and unpack the
   [zip](repo-zip).
- * If you clone the repo I would recommend that you remove the `.git` folder
-   and init a new project as you will likely make a repo just for your
-   presentation.
 * cd to the "presentation" directory and start serving the presentation with
   `python -m SimpleHTTPServer`
 * Browse to `http://localhost:8000`
@@ -26,5 +23,6 @@ This starter kit uses the [reveal.js presentation framework][reveal-repo].
         └── lib      # Third party libraries like reveal.js
 
 
-[reveal-repo]: https://github.com/hakimel/reveal.js "reveal.js framework"
-[repo-zip]: https://github.com/devict/devict-presentation-template/archive/master.zip "template zip"
+[dev-ict]: http://devict.org/ "DevICT"
+[arlobot-repo]: https://github.com/chrisl8/ArloBot "ArloBot"
+[devict-template]: https://github.com/devict/devict-presentation-template "DevICT Presentation Template"

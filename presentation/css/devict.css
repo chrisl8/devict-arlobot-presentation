@@ -1,5 +1,5 @@
 body > div.reveal:after {
-  content: 'irc: #devict';
+  content: 'devict.slack.com';
   font-style: normal;
   position: absolute;
   bottom: 10px;

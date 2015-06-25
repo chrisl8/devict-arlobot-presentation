@@ -8,11 +8,21 @@ By Chris Lofland
 
 
 # Setup:
-- Open up the links on the next page in a new tabs for quick access.
-- Scan through and open up other links.
-- Get my tablet working with the slides.
+- git push/pull latest https://plus.google.com/hangouts/active
+- run python -m SimpleHTTPServer
+- Open up the following links in new tabs:
+    - https://www.youtube.com/embed/HMx1xW2E4Gg
+    - https://www.youtube.com/embed/tBA87UGzrSk
+    - https://www.parallax.com/product/arlo-robotic-platform-system
+    - https://www.parallax.com/microcontrollers/propeller
+    - https://plus.google.com/hangouts/active
+- Open up this file on my phone via Pocket get to read notes
 - Get Arlobot up and running, make sure we can start Arlobot and Metatron.
-- Make sure VNC works.
+- Test Arlobot:
+    - VNC
+    - SSH
+    - Web Interface
+    - RVIZ
 - Start rqt_graph
 
 

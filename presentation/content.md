@@ -55,6 +55,15 @@ I will talk about the tools and software I've found to build such a robot.
 
 
 
+# My Gloas
+
+- A hobby.
+    - Not a business or research project
+- A mobile development platform on which to code, build and experiment.
+    - Emphasis on code. :)
+
+
+
 ## Robots Everywhere
 - http://www.newyorker.com/business/currency/lowes-robot-future-service-work
 - http://www.westerndailypress.co.uk/Robots-help-deliver-meals-patients/story-22867113-detail/story.html

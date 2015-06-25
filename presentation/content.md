@@ -17,6 +17,33 @@ By Chris Lofland
 
 
 
+# What Robots?
+
+Anything that can physically interact with the analog world could be a kind of "robot".
+I define a "robot" though as something that an gather information about the world,
+make a decision without further human input, and take action.
+This *could* include an automatic door though, but that is OK, because if you
+think of an automatic door as a robot, it will inspire you to think about the
+these simple objects with a creative mind.
+The only thing I leave out of the "robot" category is purely remote control vehicles,
+however often the first step, and also a useful function of, an autonomous vehicle is
+a "telepresence" machine that allows you to monitor a remote environment
+and interact with it.
+Seth showed us how to use an Arduino and Node.js to code simple responses to sensor
+input.
+
+
+### Notes:
+See Pictures.
+
+
+
+I am going to focus on larger robots with autonomous navigation today.
+
+I will talk about the tools and software I've found to build such a robot.
+
+
+
 ## Robots Everywhere
 - http://www.newyorker.com/business/currency/lowes-robot-future-service-work
 - http://www.westerndailypress.co.uk/Robots-help-deliver-meals-patients/story-22867113-detail/story.html
@@ -25,9 +52,16 @@ By Chris Lofland
 - http://www.dailymail.co.uk/sciencetech/article-2752400/Boris-dishwashing-robot-pick-crockery.html
 
 
-###Notes:
+## Notes:
+See Pictures.
+
 - This robot is going to be deployed to Home Depot and Lowe's stores to help customers find items using image recognition and the ability to navigate the store.
 -  This robot navigates the halls of a hospital with trays of food and other supplies to free up nurses form spending their time pushing carts around. They operate "freely" in the halls, not on a track, but they are on a strict path. If something gets in the way they detect it, but the only stop, they do not navigate around obstacles.
+
+
+## Notes:
+See Pictures.
+
 - This dish washing robot is able to analyze a physical item it has never encountered before and determine how to grasp and manipulate it
 - LEGO also has a similar robotic system of delivery robots that shuttles bins of parts between the machines that make parts and machines that sort and package parts.
 - Amazon also uses robots to life and move heavy items
@@ -39,7 +73,7 @@ Because building a robot is like building a video game, but in reverse.
 ![Mapping](img/rviz.png)
 
 
-###Notes:
+### Notes:
 We build the simulated environment inside of the computer based on the real world, using sensor data, and then attempt to navigate in that environment.
 Our success is based both on how well we interact with the simulated environment and on how well our simulated environment mirrors the real world.
 i.e. How does glass "appear" in our simulated environment?
@@ -51,7 +85,7 @@ Building robots is introspective,
 ![Mirror Overlay](img/MirrorOverlay.png)
 
 
-###Notes:
+### Notes:
 As humans we do the same thing. While we interact with the real world all day long, our behavior and decisions are actually based on the simulated world we build in our heads. It is very easy for external and internal influences to altar that simulation and cause problems. i.e. Drunk driving . . . or just walking into very clean windows.
 
 Humans have an amazing ability to cope with discrepancies in our simulation. When we see something that doesn't "make sense" we discard it, or at the very least weight our decisions based on our doubt.
@@ -59,7 +93,7 @@ We also have an amazing pattern, not so much recognition, but more like generati
 
 
 
-#Why Not?
+# Why Not?
 The first limitation of robotics is input, and I break these down into two areas:
 
 - Technology
@@ -67,12 +101,12 @@ The first limitation of robotics is input, and I break these down into two areas
 
 
 
-##Why Not?
+## Why Not?
 Google Driverless car's Lidar
 ![Velodyne HDL-64E](img/velodyne-hdl-64e.jpg)
 
 
-###Notes:
+### Notes:
 The technology is arriving fast:
 The self driving cars that Google "plays with" actually have a better idea of the world around them than you and I do.
 While you and I rely on brake lights and a crude depth approximation system to know when the car in front of us is slowing down or stopping, the Google car knows the distance of the car in front of it down to the millimeter, and by proxy, the exact speed of that car at every microsecond.
@@ -300,6 +334,22 @@ What I have been doing is a combination of creating scripts in Python that inter
 
 
 
+#My Progress:
+
+My initial goal was to run the map creation and map navigation functions of
+the ROS TurtleBot packages on my robot. This is done.
+
+Currently I am working on putting these functions into a web GUI:
+
+- Startup
+- Exploration
+- Map loading
+- Map location "tagging"
+- Navigation to tagged locations
+
+These are close to done.
+
+
 
 #Demonstration:
 - <p class="fragment" data-fragment-index="1">ROS nodes</p>
@@ -307,6 +357,26 @@ What I have been doing is a combination of creating scripts in Python that inter
 - <p class="fragment" data-fragment-index="3">Topics</p>
 - <p class="fragment" data-fragment-index="4">Map</p>
 - <p class="fragment" data-fragment-index="5">RVIZ</p>
+
+
+
+# My Next Goals:
+
+- Operate continuously in my house, going to preset locations based on
+    - Other inputs, such as my alarm system
+    - "Random" actions based on programmed "behaviors"
+- Following me via some "tag" in or out of a mapped environment
+- Generic human interaction based on sensor input and pre-generated content
+- Face detection and tracking
+
+
+
+# Dreams
+
+- Extend mapping to 2D surface environments like sidewalks, similar to how a car
+navigates on roads without walls
+- Add arms
+- Personalized interaction with individuals based on recognition and discovered information
 
 
 

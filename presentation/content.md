@@ -15,7 +15,8 @@ By Chris Lofland
     - https://www.youtube.com/embed/tBA87UGzrSk
     - https://www.parallax.com/product/arlo-robotic-platform-system
     - https://www.parallax.com/microcontrollers/propeller
-    - https://plus.google.com/hangouts/active
+    - https://plus.google.com/hangouts/onair
+- Open up first picture in Pictures so I can scan through them
 - Open up this file on my phone via Pocket get to read notes
 - Get Arlobot up and running, make sure we can start Arlobot and Metatron.
 - Test Arlobot:
@@ -30,11 +31,11 @@ By Chris Lofland
 # What Robots?
 
 Anything that can physically interact with the analog world could be a kind of "robot".
-I define a "robot" though as something that an gather information about the world,
+I define a "robot" though as something that can gather information about the world,
 make a decision without further human input, and take action.
 This *could* include an automatic door though, but that is OK, because if you
 think of an automatic door as a robot, it will inspire you to think about the
-these simple objects with a creative mind.
+these simple objects with creativity.
 The only thing I leave out of the "robot" category is purely remote control vehicles,
 however often the first step, and also a useful function of, an autonomous vehicle is
 a "telepresence" machine that allows you to monitor a remote environment
@@ -316,11 +317,15 @@ Computing platforms:
 
 ##Robot Components
 #Wiring
-This is the area I have the least documentation on.
-In short, read up at learn.parallax.com and at SparkFun!
-You will need to use breadboards, resistors and capacitors.
-Honestly, it is easier to do than to explain.
-If anyone wants to build one of these and document the wiring I would be excited to help!
+
+- Every robot has a lot of wire!
+- This is the area I have the least documentation on.
+- In short, read up at learn.parallax.com and at SparkFun.
+- You will need to use breadboards, resistors and capacitors.
+- If anyone wants to build one of these and document the wiring I would be excited to help!
+- Example: http://learn.parallax.com/KickStart/28015
+
+(See Pictures)
 
 
 

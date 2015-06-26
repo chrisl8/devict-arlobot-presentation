@@ -55,7 +55,7 @@ I will talk about the tools and software I've found to build such a robot.
 
 
 
-# My Gloas
+# My Goals
 
 - A hobby.
     - Not a business or research project
@@ -143,7 +143,7 @@ https://www.youtube.com/embed/HMx1xW2E4Gg
 
 ###Notes:
 In 2006 Scott Hassan, an early Google employee who helped develop Google's technology, started a research lab and technology incubator devoted to developing hardware and open source software for personal robotics applications.
-The goal was to create the tools necessary for people to advance the field of robotics without contiunually reinventing the wheel by building new hardware platforms and writing code to re-implement the same functions on every new platform.
+The goal was to create the tools necessary for people to advance the field of robotics without continually reinventing the wheel by building new hardware platforms and writing code to re-implement the same functions on every new platform.
 
 
 

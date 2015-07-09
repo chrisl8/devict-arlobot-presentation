@@ -1,7 +1,10 @@
 # ArloBot Presentation for DevICT
 
-This is a brief presentation that I am doing for [DevICT][dev-ict]
+This is a brief presentation that gave for [DevICT][dev-ict]
 about my [Arlobot Robot][arlobot-repo].
+
+You can see the video of my presentation on YouTube:
+https://www.youtube.com/watch?v=vpq3-lauFjg
 
 The presentation framework itself is a clone and republish of the
 [DevICT Presentation Template][devict-template]

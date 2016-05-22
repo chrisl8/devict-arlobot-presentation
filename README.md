@@ -2,6 +2,7 @@
 
 This is a brief presentation that gave for [DevICT][dev-ict]
 about my [Arlobot Robot][arlobot-repo].
+Updated slightly for the 2016 Kansas Linux Fest.
 
 You can see the video of my presentation on YouTube:  
 https://www.youtube.com/watch?v=vpq3-lauFjg

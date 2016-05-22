@@ -38,10 +38,8 @@ think of an automatic door as a robot, it will inspire you to think about the
 these simple objects with creativity.
 The only thing I leave out of the "robot" category is purely remote control vehicles,
 however often the first step, and also a useful function of, an autonomous vehicle is
-a "telepresence" machine that allows you to monitor a remote environment
+a "tele-presence" machine that allows you to monitor a remote environment
 and interact with it.
-Seth showed us how to use an Arduino and Node.js to code simple responses to sensor
-input.
 
 
 ### Notes:
@@ -234,11 +232,6 @@ ROS is a distributed framework of processes (aka Nodes) that enables executables
 
 
 
-#Nodes
-Nodes are processes that perform computation. For example, one node controls a laser range-finder, one node controls the wheel motors, one node performs localization, one node performs path planning, one Node provides a graphical view of the system, and so on. A ROS node is written with the use of a ROS client library, such as roscpp or rospy.
-
-
-
 #Master
 The ROS Master provides name registration and lookup so that all of the nodes can find each other, exchange messages, or invoke services.
 
@@ -246,6 +239,11 @@ The ROS Master provides name registration and lookup so that all of the nodes ca
 
 #Parameter Server
 The Parameter Server allows data (parameters) to be stored by key in a central location. It is currently part of the Master.
+
+
+
+#Nodes
+Nodes are processes that perform computation. For example, one node controls a laser range-finder, one node controls the wheel motors, one node performs localization, one node performs path planning, one Node provides a graphical view of the system, and so on. A ROS node is written with the use of a ROS client library, such as roscpp or rospy.
 
 
 
@@ -353,8 +351,11 @@ ROS is a collection of programs. You write a program to do what you want to do. 
 
 
 #ROS and Node.js
-There is no direct interface to ROS for node.js, however there is a JavaScript interface. This interface works in browsers, but the port to node is still going through some growing pains. At this time it works with 0.10 versions of node, but not 0.11+ versions.
-What I have been doing is a combination of creating scripts in Python that interface with my node scripts, and using the ROS Command Line tools, which are also very good.
+This is not a ROS API for writing ROS nodes in JavaScript, however there is a JavaScript interface called roslibjs. This interface works well both in the browser and in even the latest version of Node.js. It allows subscribing to topics, setting and receiving ROS parameters and direct communication with ROS.
+
+Currently I've been coding my robot in Python and Node.js. The ROS based functions are ROS nodes and the interactive code is in Node.js because I'm highly interested in JavaScript.
+
+My point is that ROS requires a multi-disciplined approach, but that you can focus on your language of choice for most of your coding.
 
 
 

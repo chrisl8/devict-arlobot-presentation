@@ -1,4 +1,4 @@
-# ArloBot Presentation for DevICT
+# [ArloBot Presentation for DevICT](http://chrisl8.github.io/devict-arlobot-presentation)
 
 This is a brief presentation that gave for [DevICT][dev-ict]
 about my [Arlobot Robot][arlobot-repo].
@@ -6,7 +6,7 @@ about my [Arlobot Robot][arlobot-repo].
 You can see the video of my presentation on YouTube:  
 https://www.youtube.com/watch?v=vpq3-lauFjg
 
-You can run the slide show by going to this link:  
+View this slide show here:  
 http://chrisl8.github.io/devict-arlobot-presentation
 
 The presentation framework itself is a clone and republish of the

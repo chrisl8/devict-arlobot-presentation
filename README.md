@@ -7,7 +7,7 @@ You can see the video of my presentation on YouTube:
 https://www.youtube.com/watch?v=vpq3-lauFjg
 
 You can run the slide show by going to this link:  
-https://http://chrisl8.github.io/devict-arlobot-presentation/
+http://chrisl8.github.io/devict-arlobot-presentation
 
 The presentation framework itself is a clone and republish of the
 [DevICT Presentation Template][devict-template]

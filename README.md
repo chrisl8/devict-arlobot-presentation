@@ -15,9 +15,9 @@ The presentation framework itself is a clone and republish of the
 ## Setup
 * Download this package. Either clone the repo or download and unpack the
   [zip](repo-zip).
-* cd to the "presentation" directory and start serving the presentation with
-  `python -m SimpleHTTPServer`
-* Browse to `http://localhost:8000`
+* cd to the "presentation" directory and start serving the presentation with some simple web server. I prefer Node, so I run:  
+  `npx http-server`
+* Use the URL provided
 
 ## Folder structure
 
